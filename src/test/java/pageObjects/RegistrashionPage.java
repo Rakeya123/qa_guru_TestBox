@@ -13,11 +13,8 @@ public class RegistrashionPage {
             userEmailInput = $("#userEmail"),
             currentAdressInput = $("#currentAddress"),
             permanentAdressInput = $("#permanentAddress"),
-            sumbitButtonClik = $("#submit"),
-    outputUserName = $("#output #name"),
-    outputUserEmail = $("#output #email"),
-    outputCurrentAddress = $("#output #currentAddress"),
-    outputPermanentAddress = $("#output #permanentAddress");
+            sumbitButtonClik = $("#submit");
+
 
     public RegistrashionPage openPage() {
         open("/text-box");
@@ -45,6 +42,7 @@ public class RegistrashionPage {
         return this;
     }
     public RegistrashionPage clickSumbut() {
+        sumbitButtonClik.scrollTo();
         sumbitButtonClik.click();
         return this;
     }

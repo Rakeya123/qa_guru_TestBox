@@ -40,8 +40,5 @@ registrashionPage.checkResults("Name:", "Anna")
 
     }
 
-    @AfterAll
-    static void afterAll() {
-        closeWebDriver();
-    }
+
 }
